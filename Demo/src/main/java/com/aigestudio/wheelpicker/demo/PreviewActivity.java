@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.aigestudio.wheelpicker.WheelPicker;
 
@@ -57,7 +56,6 @@ public class PreviewActivity extends Activity implements WheelPicker.OnItemSelec
                 text = "Right:";
                 break;
         }
-        Toast.makeText(this, text + String.valueOf(data), Toast.LENGTH_SHORT).show();
     }
 
     @Override
